@@ -1,5 +1,6 @@
 <?php
 
+error_reporting(0);
 function reverse_IP($remoteHost)
 	{
 	$IP = gethostbyname($remoteHost);
